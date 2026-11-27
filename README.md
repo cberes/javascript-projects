@@ -25,3 +25,7 @@ Like `js-mandala` but it uses CSS only. Yes, there's no Javascript, but it felt 
 ## fallout-76
 
 A chart about perks in Fallout 76. This was accurate when the game was released in 2018, but I assume it's changed since then.
+
+## fo76-mutations
+
+Calculations about mutations in Fallout 76.
