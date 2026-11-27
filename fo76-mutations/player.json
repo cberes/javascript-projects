@@ -1,0 +1,30 @@
+{
+  "mutations": [
+    "Adrenal Reaction",
+    "Bird Bones",
+    "Eagle Eyes",
+    "Egg Head",
+    "Healing Factor",
+    "Herbivore",
+    "Herd Mentality",
+    "Marsupial",
+    "Scaly Skin",
+    "Speed Demon"
+  ],
+  "inactiveMutations": [
+    "Carnivore",
+    "Chameleon",
+    "Electrically Charged",
+    "Empath",
+    "Grounded",
+    "Plague Walker",
+    "Talons",
+    "Twisted Muscles",
+    "Unstable Isotope"
+  ],
+  "conditions": {
+    "Team": 4,
+    "Class Freak": 3,
+    "Strange in Numbers": 1
+  }
+}

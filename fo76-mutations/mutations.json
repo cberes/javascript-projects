@@ -1,0 +1,385 @@
+[
+  {
+    "name": "Adrenal Reaction",
+    "positive": [
+      {
+        "effect": "DMG per kill while on a Kill Streak",
+        "diff": 0.05
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Max HP",
+        "diff": -50
+      }
+    ]
+  },
+  {
+    "name": "Bird Bones",
+    "positive": [
+      {
+        "effect": "AGI",
+        "diff": 4
+      },
+      {
+        "effect": "Fall Speed",
+        "diff": -0.52
+      },
+      {
+        "effect": "Fall Damage",
+        "diff": -0.76
+      }
+    ],
+    "negative": [
+      {
+        "effect": "STR",
+        "diff": -4
+      },
+      {
+        "effect": "Limb Damage",
+        "diff": 10000000
+      }
+    ]
+  },
+  {
+    "name": "Carnivore",
+    "positive": [
+      {
+        "effect": "Meat Benefits",
+        "diff": 2,
+        "type": "%"
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Plant Benefits",
+        "diff": 0,
+        "type": "%"
+      }
+    ]
+  },
+  {
+    "name": "Herbivore",
+    "positive": [
+      {
+        "effect": "Plant Benefits",
+        "diff": 2,
+        "type": "%"
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Meat Benefits",
+        "diff": 0,
+        "type": "%"
+      }
+    ]
+  },
+  {
+    "name": "Chameleon",
+    "positive": [
+      {
+        "effect": "Invisibility in combat if unarmored and standing still",
+        "diff": 1
+      }
+    ],
+    "negative": []
+  },
+  {
+    "name": "Eagle Eyes",
+    "positive": [
+      {
+        "effect": "Critical Damage",
+        "diff": 0.5
+      },
+      {
+        "effect": "PER",
+        "diff": 4
+      }
+    ],
+    "negative": [
+      {
+        "effect": "STR",
+        "diff": -4
+      }
+    ]
+  },
+  {
+    "name": "Egg Head",
+    "positive": [
+      {
+        "effect": "INT",
+        "diff": 6
+      }
+    ],
+    "negative": [
+      {
+        "effect": "STR",
+        "diff": -3
+      },
+      {
+        "effect": "END",
+        "diff": -3
+      }
+    ]
+  },
+  {
+    "name": "Electrically Charged",
+    "positive": [
+      {
+        "effect": "Chance to shock melee attackers",
+        "diff": 1
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Small amount of damage done to player",
+        "diff": 1
+      }
+    ]
+  },
+  {
+    "name": "Empath",
+    "positive": [
+      {
+        "effect": "Teammate Damage Taken",
+        "diff": -0.25
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Damage Taken",
+        "diff": 0.33
+      }
+    ]
+  },
+  {
+    "name": "Grounded",
+    "positive": [
+      {
+        "effect": "Energy Resistance",
+        "diff": 100
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Energy Damage",
+        "diff": -0.5
+      }
+    ]
+  },
+  {
+    "name": "Healing Factor",
+    "positive": [
+      {
+        "effect": "Health Regeneration",
+        "diff": 3,
+        "type": "%"
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Chem effects",
+        "diff": -0.55
+      }
+    ]
+  },
+  {
+    "name": "Herd Mentality",
+    "positive": [
+      {
+        "effect": "STR",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "PER",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "END",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "CHR",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "INT",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "AGI",
+        "diff": 2,
+        "team": true
+      },
+      {
+        "effect": "LCK",
+        "diff": 2,
+        "team": true
+      }
+    ],
+    "negative": [
+      {
+        "effect": "STR",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "PER",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "END",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "CHR",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "INT",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "AGI",
+        "diff": -2,
+        "team": false
+      },
+      {
+        "effect": "LCK",
+        "diff": -2,
+        "team": false
+      }
+    ]
+  },
+  {
+    "name": "Marsupial",
+    "positive": [
+      {
+        "effect": "Carry Weight",
+        "diff": 20
+      },
+      {
+        "effect": "Jump Height",
+        "diff": 3.2,
+        "type": "%"
+      }
+    ],
+    "negative": [
+      {
+        "effect": "INT",
+        "diff": -4
+      }
+    ]
+  },
+  {
+    "name": "Plague Walker",
+    "positive": [
+      {
+        "effect": "Poison Aura",
+        "diff": 1
+      }
+    ],
+    "negative": []
+  },
+  {
+    "name": "Scaly Skin",
+    "positive": [
+      {
+        "effect": "Damage Resistance",
+        "diff": 50
+      },
+      {
+        "effect": "Energy Resistance",
+        "diff": 50
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Max AP",
+        "diff": -50
+      }
+    ]
+  },
+  {
+    "name": "Speed Demon",
+    "positive": [
+      {
+        "effect": "Movement Speed",
+        "diff": 0.2
+      },
+      {
+        "effect": "Reload Speed",
+        "diff": 0.32
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Hunger",
+        "diff": 0.5
+      },
+      {
+        "effect": "Thirst",
+        "diff": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Talons",
+    "positive": [
+      {
+        "effect": "Fist Damage",
+        "diff": 0.25
+      }
+    ],
+    "negative": [
+      {
+        "effect": "AGI",
+        "diff": -4
+      }
+    ]
+  },
+  {
+    "name": "Twisted Muscles",
+    "positive": [
+      {
+        "effect": "Melee Damage",
+        "diff": 0.25
+      },
+      {
+        "effect": "Cripple Limb Chance",
+        "diff": 0.5
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Gun Accurary",
+        "diff": -0.5
+      }
+    ]
+  },
+  {
+    "name": "Unstable Isotope",
+    "positive": [
+      {
+        "effect": "Medium chance to release a radiation blast when struck in melee",
+        "diff": 1
+      }
+    ],
+    "negative": [
+      {
+        "effect": "Minor damage to player during the radiation blast",
+        "diff": 1
+      }
+    ]
+  }
+]
